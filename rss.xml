@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+						<rss version="2.0">
+							<channel>
+								<title>Urban Activation</title>
+								<link>http://localhost/urbanactivation/</link>
+								<description>Urban Activation streamlines the end-to-end residential property purchasing and management process to empower investors to realise the full potential of property.</description>
+								<language>en-au</language>
+								<image>
+									<title>Urban Activation</title>
+									<url>http://localhost/urbanactivation/images/logo.jpg</url>
+									<link>http://localhost/urbanactivation/</link>
+									<width>100</width>
+								</image></channel>
+				</rss>

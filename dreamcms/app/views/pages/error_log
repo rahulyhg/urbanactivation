@@ -1,0 +1,41 @@
+[03-Jan-2016 11:51:21 UTC] PHP Fatal error:  Class 'Confgiure' not found in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 257
+[11-Jan-2016 02:55:11 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:55:26 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:55:38 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:56:02 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:56:13 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:56:39 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:56:48 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:56:56 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:57:11 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[11-Jan-2016 02:57:21 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 01:19:24 UTC] PHP Fatal error:  Class 'Confgiure' not found in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 257
+[18-Jan-2016 01:31:00 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 01:31:30 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 01:48:16 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 02:20:12 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 08:06:59 UTC] PHP Fatal error:  Class 'Confgiure' not found in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 257
+[18-Jan-2016 08:08:32 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 08:09:07 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 08:09:57 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 11:54:53 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[18-Jan-2016 11:54:53 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 23:45:05 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[18-Jan-2016 23:45:05 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 23:45:26 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[18-Jan-2016 23:45:26 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[18-Jan-2016 23:45:50 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[18-Jan-2016 23:45:50 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[19-Jan-2016 03:33:13 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[19-Jan-2016 03:33:13 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[19-Jan-2016 03:33:49 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[19-Jan-2016 03:33:49 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[19-Jan-2016 06:21:50 UTC] PHP Warning:  POST Content-Length of 5820223 bytes exceeds the limit of 2097152 bytes in Unknown on line 0
+[19-Jan-2016 06:25:51 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[19-Jan-2016 06:25:51 UTC] PHP Fatal error:  Class 'Confgiure' not found in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 259
+[19-Jan-2016 06:33:08 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[19-Jan-2016 06:33:08 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13
+[19-Jan-2016 06:43:00 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[19-Jan-2016 06:43:00 UTC] PHP Fatal error:  Class 'Confgiure' not found in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 266
+[19-Jan-2016 06:46:28 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 227
+[19-Jan-2016 06:46:28 UTC] PHP Warning:  Division by zero in /home/urbactv8/public_html/dreamcms/app/views/pages/upload.php on line 13

@@ -1,0 +1,20 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+
+/* Specific to example one */
+#prop-tabs .nav { overflow: hidden; margin: 0 0 10px -15px; padding: 0px; }
+#prop-tabs .nav li {  float: left;  list-style: none; background: none;}
+#prop-tabs .nav li.last { margin-right: 0; }
+#prop-tabs .nav li a { display: block; padding: 5px 8px; background-color: #555; color: white; font-size: 11px;text-align: center; border: 0;-moz-border-radius: 6px;border-radius: 6px;}
+#prop-tabs .nav li a:hover { background-color: #000; color: white; }
+#prop-tabs ul { list-style: none; }
+#prop-tabs ul li a { display: block;}
+#prop-tabs ul li:last-child a { border: none; }
+#prop-tabs ul li.nav-one a.current, #prop-tabs ul.featured li a:hover { background-color: #fff; color: #333; }
+#prop-tabs ul li.nav-two a.current, #prop-tabs ul.core li a:hover { background-color: #fff; color: #333; }

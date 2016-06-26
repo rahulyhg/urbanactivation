@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;}
+
+body { font-family: Helvetica, Arial, sans-serif;
+   background: white;
+   background-image: none;
+   font-size: 11pt;}
+    
+   
+#head-wrapper { text-align: center; height: 100px!important; }   
+
+#nav,  #footer, #footer-txt,   #translate,  #form,  .search-box, #wowslider-container1, #carousel, #google-map, #property-buttons, .nav-one, .nav-two, #results, #buttons, .expert-panel, .news-panel, #property-links, #prop-details, .backstretch {display: none; float: none; height: 0!important; margin: 0!important; padding: 0!important;}
+
+.wrapper { width: 90% !important;}
+#content,  #col-right, #col-left, #properties-list, #property-features, #property-desc {width: 100% !important;}
+	
+#content, .wrapper, #col-right, #col-left, #properties-list, #property-features, #property-desc {	
+   margin: 0;
+   padding: 5px;
+   border: 0;
+   float: none !important;
+   color: black;
+   background: transparent none;
+   border: none; min-height: 0;}
+   
+#phone { float: left!important; }
+#phone ul { padding: 20px 0 0 0!important;}
+#phone li {color: #777!important; text-shadow: none; }   
+   
+#prop-key-features { border: none; padding: 0; margin: 0;} 
+#property-price { float: left; margin-left: 150px;}  
+
+a:link, a:visited {
+   color: #00cc99;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;}
+   
+/* a:after {
+    content: " (" attr(href) ") ";
+} */
+  
+h1, h2, #property-list-title { font-size: 18px;
+	font-weight: bold;
+	color: #00cc99; }
+	
+table { width: 100%;
+padding: 5px;
+border: 0;
+page-break-inside: avoid;}
+
+/*#property-desc {page-break-inside: avoid;}*/
+
+
+#logo       { display: none; }	
+
+#logo-print {  display: inline; float: left; margin-right: 130px; }	

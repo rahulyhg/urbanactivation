@@ -1,0 +1,76 @@
+<script>
+	//document.selectedInfoWindow = 1;
+
+	var map;
+	
+	function initialize() {
+		//var latlng = new google.maps.LatLng(-25.324167,135.791016); // center of Australia
+		var settings = {
+			zoom: 10,
+			center: google.maps.LatLng(-25.324167,135.791016),
+			mapTypeId: google.maps.MapTypeId.ROADMAP};
+
+		/*var settings = {
+			zoom: 10,
+			center: latlng,
+			mapTypeControl: true,
+			mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+			navigationControl: true,
+			navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+			mapTypeId: google.maps.MapTypeId.ROADMAP};*/
+		
+		map = new google.maps.Map(document.getElementById("map_canvas"), settings);
+		
+		var houseImage = new google.maps.MarkerImage('<?=$site_path?>images/house.png',
+			new google.maps.Size(50,50),
+			new google.maps.Point(0,0),
+			new google.maps.Point(50,50)
+		);
+		
+		var houseSoldImage = new google.maps.MarkerImage('<?=$site_path?>images/house_sold.png',
+			new google.maps.Size(50,50),
+			new google.maps.Point(0,0),
+			new google.maps.Point(50,50)
+		);
+
+		var houseShadow = new google.maps.MarkerImage('<?=$site_path?>images/house_shadow.png',
+			new google.maps.Size(70,50),
+			new google.maps.Point(0,0),
+			new google.maps.Point(60, 50)
+		);
+		
+		/*var propertyMarker = new Array();
+		var infowindow  = new Array();
+		var markerBounds = new google.maps.LatLngBounds(); // create map boundaries
+		
+		<?php //echo $mapsScript;?>
+		map.fitBounds(markerBounds); // set map center and zoom to fit
+
+		google.maps.event.addListener(map, 'tilesloaded', function() {
+			if (map.getZoom()>15) map.setZoom(15); // pan out for best map view
+			google.maps.event.clearListeners(map, 'tilesloaded');  // do not reuse listerner
+		});
+					
+		google.maps.event.addListener(map, 'click', function() {
+			infowindow[document.selectedInfoWindow].close();
+			map.panToBounds(markerBounds); // set map center and zoom to fit
+		});
+
+		//function contentStructure(title, desc, image, pid, sold) {
+		function contentStructure(title, desc, image, seo, sold) {
+			c = '<div id="content" style="width:280px; height:180px; overflow:hidden">'+
+				'<h1 id="firstHeading" class="firstHeading">'+title+'</h1>'+
+				'<div id="bodyContent; overflow:hidden; width:340px">'+
+				'<p style="white-space:normal; overflow:hidden">'+
+					'<img src="'+image+'" align="left" style="width:90px; margin-right:10px" />';
+			if(sold=="True") c = c +	'<strong style="color:#DD0000">SOLD</strong><br>';
+			c = c + desc+'... <a href="'+seo+'" title="'+title+'">more...</a></p>'+
+				'</div>'+
+				'</div>';
+			return (c);
+		}*/
+	}
+	
+	google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>

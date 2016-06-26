@@ -1,0 +1,89 @@
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} ^urbanactivation\.com\.au$
+#RewriteRule ^(.*)$ "http\:\/\/www\.urbanactivation\.com\.au\/$1" [R=301,L]
+
+#RewriteBase /
+RewriteRule ^pages/([^/]+)/([^/]+)$ page.php?cat=$1&seo_url=$2 [QSA,NC,L]
+RewriteRule ^pages/([^/]+)$ page.php?cat=$1 [QSA,NC,L]
+RewriteRule ^pages$ page.php [QSA,NC,L]
+RewriteRule ^news/([^/]+)/([^/]+)$ news.php?cat=$1&title=$2 [QSA,NC,L]
+RewriteRule ^news/([^/]+)$ news.php?cat=$1 [QSA,NC,L]
+RewriteRule ^news$ news.php [QSA,NC,L]
+RewriteRule ^archived-news/([^/]+)/([^/]+)$ archived-news.php?arc=$1&title=$2 [QSA,NC,L]
+RewriteRule ^archived-news/([^/]+)$ archived-news.php?arc=$1 [QSA,NC,L]
+RewriteRule ^archived-news$ archived-news.php [QSA,NC,L]
+RewriteRule ^blog/([^/]+)$ blog.php?title=$1 [QSA,NC,L]
+RewriteRule ^blog$ blog.php [QSA,NC,L]
+RewriteRule ^archived-blog/([^/]+)/([^/]+)$ archived-blog.php?arc=$1&title=$2 [QSA,NC,L]
+RewriteRule ^archived-blogs/([^/]+)$ archived-blog.php?arc=$1 [QSA,NC,L]
+RewriteRule ^archived-blogs$ archived-blog.php [QSA,NC,L]
+RewriteRule ^newsletters/([^/]+)$ newsletters.php?title=$1 [QSA,NC,L]
+RewriteRule ^newsletters$ newsletters.php [QSA,NC,L]
+RewriteRule ^research/([^/]+)$ research.php?title=$1 [QSA,NC,L]
+RewriteRule ^research$ research.php [QSA,NC,L]
+RewriteRule ^contact$ contact.php [QSA,NC,L]
+RewriteRule ^links$ links.php [QSA,NC,L]
+RewriteRule ^testimonials$ testimonials.php [QSA,NC,L]
+RewriteRule ^disclaimer$ disclaimer.php [QSA,NC,L]
+RewriteRule ^about$ about.php [QSA,NC,L]
+RewriteRule ^faqs$ faqs.php [QSA,NC,L]
+RewriteRule ^for-sale/([^/]+)$ property-list.php?region=$1 [QSA,NC,L]
+RewriteRule ^for-sale$ property-list.php [QSA,NC,L]
+RewriteRule ^property/([^/]+)$ property.php?url=$1 [QSA,NC,L]
+RewriteRule ^for-rent$ rental-list.php [QSA,NC,L]
+RewriteRule ^rental/([^/]+)$ rental.php?url=$1 [QSA,NC,L]
+RewriteRule ^brochure/([^/]+)$ brochure-template.php?url=$1 [QSA,NC,L]
+
+RewriteRule ^property-search/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ search-results.php?pt=$1&prl=$2&prh=$3&prs=$4&ft=$5&bed=$6&bth=$7&prk=$8 [QSA,NC,L]
+RewriteRule ^property-search/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ search-results.php?pt=0&prl=0&prh=0&prs=0&ft=all
+RewriteRule ^property-search/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ search-results.php?pt=0&prl=0&prh=0&prs=0&ft=all
+RewriteRule ^property-search/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ search-results.php?pt=$1&prl=$2&prh=$3&prs=$4&ft=$5 [QSA,NC,L]
+RewriteRule ^property-search/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ search-results.php?pt=0&prl=0&prh=0&prs=0&ft=all
+RewriteRule ^property-search/([^/]+)/([^/]+)/([^/]+)$ search-results.php?pt=0&prl=0&prh=0&prs=0&ft=all
+RewriteRule ^property-search/([^/]+)/([^/]+)$ search-results.php?pt=0&prl=0&prh=0&prs=0&ft=all
+RewriteRule ^property-search/([^/]+)$ search-results.php?pt=0&prl=0&prh=0&prs=0&ft=all
+RewriteRule ^property-search$ search-results.php?pt=0&prl=0&prh=0&prs=0&ft=all
+
+RewriteRule ^property-map/([^/]+)$ search-map.php?id=$1 [QSA,NC,L]
+
+RewriteRule ^rental-search/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ search-rentals.php?pt=$1&prl=$2&prh=$3&prs=$4&ft=$5 [QSA,NC,L]
+RewriteRule ^rental-search/([^/]+)/([^/]+)/([^/]+)/([^/]+)$ search-rentals.php?pt=0&prl=0&prh=2500&prs=0&ft=all
+RewriteRule ^rental-search/([^/]+)/([^/]+)/([^/]+)$ search-rentals.php?pt=0&prl=0&prh=2500&prs=0&ft=all
+RewriteRule ^rental-search/([^/]+)/([^/]+)$ search-rentals.php?pt=0&prl=0&prh=2500&prs=0&ft=all
+RewriteRule ^rental-search/([^/]+)$ search-rentals.php?pt=0&prl=0&prh=2500&prs=0&ft=all
+RewriteRule ^rental-search$ search-rentals.php?pt=0&prl=0&prh=2500&prs=0&ft=all
+
+# ---------------------------------------------------------------------------------------------
+# AGENT AREA
+# ---------------------------------------------------------------------------------------------
+
+RewriteRule ^register$ register.php [QSA,NC,L]
+RewriteRule ^login$ login.php [QSA,NC,L]
+RewriteRule ^logout$ logout.php [QSA,NC,L]
+
+RewriteRule ^password-forgot$ password-forgot.php [QSA,NC,L]
+RewriteRule ^password-reset/([^/]+)/([^/]+)$ password-reset.php?id=$1&token=$2 [QSA,NC,L]
+RewriteRule ^password-reset$ password-reset.php [QSA,NC,L]
+
+RewriteRule ^myaccount/change-password/error$ account-change-password.php?status=$1 [QSA,NC,L]
+RewriteRule ^myaccount/change-password/success$ account-change-password.php?status=$1 [QSA,NC,L]
+RewriteRule ^myaccount/change-password$ account-change-password.php [QSA,NC,L]
+
+RewriteRule ^myaccount/change-details/success$ account-change-details.php?status=$1 [QSA,NC,L]
+RewriteRule ^myaccount/change-details$ account-change-details.php [QSA,NC,L]
+
+RewriteRule ^myaccount$ account.php [QSA,NC,L]
+# ---------------------------------------------------------------------------------------------
+
+ErrorDocument 404 /404.php
+
+DirectoryIndex  index.php index.htm
+RewriteCond %{HTTP_HOST} ^innerurbanactivation\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.innerurbanactivation\.com$
+RewriteRule ^/?$ "http\:\/\/www\.urbanactivation\.com\.au" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^innerurbanactivation\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.innerurbanactivation\.com\.au$
+RewriteRule ^/?$ "http\:\/\/www\.urbanactivation\.com\.au" [R=301,L]
+

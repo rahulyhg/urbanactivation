@@ -1,0 +1,39 @@
+[
+		  
+										{
+											'title': 'ILK 2, South Yarra',
+											'description': '<div style="width: 100%;float: left;"><img src="http://www.updomain.com.au/dreamcms/app/webroot/uploads/properties/blank.jpg" style="width: 50%;float: left;"><div style="width: 50%;float: left;">Offering spectacular views, a sophisticated way of life, and genuine liveability, Ilk reaches new heights of excellence</div></div>',
+											'url':'<a href="http://www.updomain.com.au/property/ilk-2-south-yarra">more...</a>',
+											'position': [
+											  -25.3241670000,
+											  135.7910160000
+											]
+										},
+										{
+											'title': 'Heirloom 2, Sydney',
+											'description': '<div style="width: 100%;float: left;"><img src="http://www.updomain.com.au/dreamcms/app/webroot/uploads/properties/blank.jpg" style="width: 50%;float: left;"><div style="width: 50%;float: left;">With 25 one and 40 two bedroom apartments to choose from, the experience of living within the walls of a historic modern, industrial warehouse in inner city Fremantle is very much within reach. </div></div>',
+											'url':'<a href="http://www.updomain.com.au/property/heirloom-2-sydney">more...</a>',
+											'position': [
+											  -25.3241670000,
+											  135.7910160000
+											]
+										},
+										{
+											'title': 'Heirloom, Sydney',
+											'description': '<div style="width: 100%;float: left;"><img src="http://www.updomain.com.au/dreamcms/app/webroot/uploads/properties/4/thumbnails/Hydrangeas.jpg" style="width: 50%;float: left;"><div style="width: 50%;float: left;">With 25 one and 40 two bedroom apartments to choose from, the experience of living within the walls of a historic modern, industrial warehouse in inner city Fremantle is very much within reach. </div></div>',
+											'url':'<a href="http://www.updomain.com.au/property/heirloom-sydney">more...</a>',
+											'position': [
+											  -25.3241670000,
+											  135.7910160000
+											]
+										},
+										{
+											'title': 'ILK, South Yarra',
+											'description': '<div style="width: 100%;float: left;"><img src="http://www.updomain.com.au/dreamcms/app/webroot/uploads/properties/2/thumbnails/Chrysanthemum2.jpg" style="width: 50%;float: left;"><div style="width: 50%;float: left;">Offering spectacular views, a sophisticated way of life, and genuine liveability, Ilk reaches new heights of excellence</div></div>',
+											'url':'<a href="http://www.updomain.com.au/property/ilk-south-yarra">more...</a>',
+											'position': [
+											  -25.3241670000,
+											  135.7910160000
+											]
+										}		  
+		]

@@ -1,0 +1,6 @@
+/* CSS Document */
+/* Footer FB like button customization */
+span.connect_widget_summary, span.connect_widget_not_connected_text { color: #333; }
+.connect_widget_not_connected_text a, .connect_widget_not_connected_text a:active, .connect_widget_not_connected_text a:visited { color: #333; text-decoration: none;}
+.connect_widget_not_connected_text a:hover { color:#186CCE;text-decoration: underline;}
+

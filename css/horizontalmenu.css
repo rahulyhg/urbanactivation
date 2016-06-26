@@ -1,0 +1,83 @@
+.horizontalcssmenu ul{
+	float: right;
+margin: 0;
+padding: 0;
+list-style-type: none;
+z-index: 999999 !important;
+}
+
+/*Top level list items*/
+.horizontalcssmenu ul li{
+position: relative;
+display: inline;
+float: left;
+margin: 0px;
+padding: 0;
+background: none;
+}
+
+/*Top level menu link items style*/
+.horizontalcssmenu ul li a, .horizontalcssmenu ul li a:active, .horizontalcssmenu ul li a:visited{
+display: block;
+
+margin: 0 0 0 5px; /*Space between top level menu link items*/
+text-decoration: none;
+font: bold 13px/14px 'Sintony',Arial, Helvetica, sans-serif;
+text-align:left;
+background-color: #dfdfdf;
+}
+
+
+	
+/*Sub level menu*/
+.horizontalcssmenu ul li ul{
+
+margin: 0; 
+padding: 10px 0 0 5px;/* add for space between menu and submenu*/
+position: absolute;
+display: block;
+visibility: hidden;
+z-index: 100;
+
+}
+
+
+/*Sub level menu list items*/
+.horizontalcssmenu ul li ul li{
+display: inline;
+float: none;
+border: 0;
+height: 1%;
+
+
+}
+
+
+/* Sub level menu links style */
+.horizontalcssmenu ul li ul li a, .horizontalcssmenu ul li ul li a:active, .horizontalcssmenu ul li ul li a:visited{
+width: 130px; /*width of sub menu levels*/
+padding: 7px !important;
+background: #333;
+font: normal 12px/12px  Arial, Helvetica, sans-serif;
+color: #f5f5f5 !important;
+text-align:left;
+margin: 0px; /* must be 0 for ie9 */
+border-bottom: 1px solid #555; 
+
+text-shadow: none;
+-webkit-border-radius: 0!important; -moz-border-radius: 0!important; border-radius: 0!important; 
+}
+
+.horizontalcssmenu ul li ul li a:hover{
+background: #555; color: #fff;
+}
+
+.horizontalcssmenu .arrowdiv{
+position: absolute;
+right: 0px;
+display: none;
+}
+	
+/* Holly Hack for IE \
+* html .horizontalcssmenu ul li { float: left; height: 1%; }
+* html .horizontalcssmenu ul li a { height: 1%; }*/

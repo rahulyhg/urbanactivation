@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="20">
+        <file>
+            <url>dreamcms/app/views/properties/edit.ctp</url>
+            <bookmark id="3">
+                <name/>
+                <line>166</line>
+                <key/>
+            </bookmark>
+            <bookmark id="4">
+                <name/>
+                <line>168</line>
+                <key/>
+            </bookmark>
+            <bookmark id="18">
+                <name/>
+                <line>299</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>dreamcms/app/views/pages/upload.php</url>
+            <bookmark id="8">
+                <name/>
+                <line>164</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>property.php</url>
+            <bookmark id="15">
+                <name/>
+                <line>241</line>
+                <key/>
+            </bookmark>
+            <bookmark id="13">
+                <name/>
+                <line>302</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>dreamcms/app/views/properties/add.ctp</url>
+            <bookmark id="16">
+                <name/>
+                <line>116</line>
+                <key/>
+            </bookmark>
+            <bookmark id="17">
+                <name/>
+                <line>292</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>dreamcms/app/controllers/properties_controller.php</url>
+            <bookmark id="11">
+                <name/>
+                <line>34</line>
+                <key/>
+            </bookmark>
+            <bookmark id="5">
+                <name/>
+                <line>164</line>
+                <key/>
+            </bookmark>
+            <bookmark id="14">
+                <name/>
+                <line>340</line>
+                <key/>
+            </bookmark>
+            <bookmark id="20">
+                <name/>
+                <line>388</line>
+                <key/>
+            </bookmark>
+            <bookmark id="19">
+                <name/>
+                <line>392</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group/>
+    </open-files>
+</project-private>

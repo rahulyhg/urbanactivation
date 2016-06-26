@@ -1,0 +1,92 @@
+.horizontalcssmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+z-index: 999999 !important;
+}
+
+/*Top level list items*/
+.horizontalcssmenu ul li{
+position: relative;
+display: inline;
+float: left;
+margin: 0px;
+padding: 0;
+background: none;
+}
+
+/*Top level menu link items style*/
+.horizontalcssmenu ul li a, .horizontalcssmenu ul li a:active, .horizontalcssmenu ul li a:visited{
+display: block;
+ /*Width of top level menu link items*/
+padding: 10px 8px 10px 8px;
+margin: 0 43px 0 0px; /*Space between top level menu link items*/
+text-decoration: none;
+color: #fff;
+font: normal 12px/12px 'Varela Round',Arial, Helvetica, sans-serif;
+text-align:left;
+text-shadow: 1px 1px 2px #002B80;
+/*filter: dropshadow(color=#002B80, offx=1, offy=1); */
+}
+.horizontalcssmenu ul li a:hover{
+color: #002B80;
+}
+
+	
+/*Sub level menu*/
+.horizontalcssmenu ul li ul{
+
+margin: 5px 0 0 0px;
+padding: 0;
+position: absolute;
+display: block;
+visibility: hidden;
+z-index: 100;
+
+}
+
+
+/*Sub level menu list items*/
+.horizontalcssmenu ul li ul li{
+display: inline;
+float: none;
+border: 0;
+height: 1%;
+top: 5px; 
+
+}
+
+
+/* Sub level menu links style */
+.horizontalcssmenu ul li ul li a, .horizontalcssmenu ul li ul li a:active, .horizontalcssmenu ul li ul li a:visited{
+width: 100px; /*width of sub menu levels*/
+padding: 7px !important;
+background: #fff;
+font: normal 11px/11px 'Varela Round', Arial, Helvetica, sans-serif;
+color: #002B80 !important;
+text-align:left;
+margin-bottom: 0px; /* must be 0 for ie9 */
+border-bottom: 2px solid rgba(30, 144, 255, 0.1); /* rgba for semi-transparent bottom border */
+
+text-shadow: none;
+filter:alpha(opacity=90);   
+-moz-opacity: 0.9;   
+opacity: 0.9;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+.horizontalcssmenu ul li ul li a:hover{
+background: #EAF4FB; color: #333;
+}
+
+.horizontalcssmenu .arrowdiv{
+position: absolute;
+right: 0px;
+display: none;
+}
+	
+/* Holly Hack for IE \
+* html .horizontalcssmenu ul li { float: left; height: 1%; }
+* html .horizontalcssmenu ul li a { height: 1%; }*/
